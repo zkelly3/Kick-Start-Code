@@ -73,7 +73,7 @@ string solve(string str, int l) {
 		res.push_back(head->val);
 		head = head->next;
 	}
-	delete(fake_head);
+	deleteNode(fake_head);
 	
 	return res;
 }
